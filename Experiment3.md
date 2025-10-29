@@ -1,4 +1,4 @@
-## Experiment [3]: [Bash Scripting]
+## Experiment [3]: [Bash Scripting for navigation]
 ### Name: Astik Patel, Roll No.: 590029070 Date: 2025-09-04
 
 ### AIM:
