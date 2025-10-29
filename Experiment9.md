@@ -39,13 +39,13 @@ largest_file=$(find "$dir" -type f -exec du -h {} + | sort -hr | head -n 1)
 if [ -z "$largest_file" ]; then
     echo "No files found in directory '$dir'."
 else
-    echo "📂 Largest file in '$dir': $largest_file"
+    echo " Largest file in '$dir': $largest_file"
 fi
 
 ## output:
 astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./2.sh
 Enter directory path: loop
-📂 Largest file in 'loop': 0    loop/experiment
+ Largest file in 'loop': 0    loop/experiment
 
 # Exercise 2: [count]
 
@@ -69,11 +69,11 @@ fi
 
 count=$(find "$dir" -maxdepth 1 -type f -name "*.sh" | wc -l)
 
-echo "📄 Number of .sh files in '$dir': $count"
+echo "Number of .sh files in '$dir': $count"
 
 ## output:
 astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./2.sh
-📄 Number of .sh files in '/home/astik': 16
+Number of .sh files in '/home/astik': 16
 
 ## Exercise 3: [CPU]
 
@@ -152,7 +152,7 @@ sudo chmod 700 "/home/$username"
 
 sudo passwd "$username"
 
-echo "✅ User '$username' created with home directory /home/$username"
+echo " User '$username' created with home directory /home/$username"
 echo "   Permissions set to 700 (owner only)"
 
 ## output:
@@ -161,7 +161,7 @@ Enter new username: patel
 New password: 
 Retype new password:
 passwd: password updated successfully
-✅ User 'patel' created with home directory /
+ User 'patel' created with home directory /
 home/patel
    Permissions set to 700 (owner only) 
 
