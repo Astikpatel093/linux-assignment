@@ -74,17 +74,17 @@ fi
 
 
 if cmp -s "$file1" "$file2"; then
-    echo "✅ The files '$file1' and '$file2' are identical."
+    echo "The files '$file1' and '$file2' are identical."
 else
-    echo "❌ The files '$file1' and '$file2' are different."
+    echo " The files '$file1' and '$file2' are different."
 fi
 
 ## output:
 astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./42.sh arm.sh as1.sh
-❌ The files 'arm.sh' and 'as1.sh' are differ
+The files 'arm.sh' and 'as1.sh' are differ
 ent.
 astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./42.sh arm.sh arm.sh
-✅ The files 'arm.sh' and 'arm.sh' are identi
+The files 'arm.sh' and 'arm.sh' are identi
 cal.
 
 ## Exercise 4: [counts]
@@ -104,13 +104,13 @@ user=$(whoami)
 
 count=$(ps -u $user --no-headers | wc -l)
 
-echo "👤 User: $user"
-echo "📊 Number of processes running: $count"
+echo " User: $user"
+echo " Number of processes running: $count"
 
 ## output:
 astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./2.sh
-👤 User: astik
-📊 Number of processes running: 9
+user: astik
+ Number of processes running: 9
 
 ## Exercise 4: [monitoring]
 
@@ -189,13 +189,13 @@ read -p "Enter search pattern: " pattern
 
 count=$(grep -c "$pattern" "$filename")
 
-echo "🔎 Number of lines matching '$pattern' in '$filename': $count"
+echo "Number of lines matching '$pattern' in '$filename': $count"
 
 ## output:
 astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./2.sh
 Enter filename: loop.sh
 Enter search pattern: if
-🔎 Number of lines matching 'if' in 'loop.sh': 2
+ Number of lines matching 'if' in 'loop.sh': 2
 
  ## Result
  * The exercise were successfully completed for basic and looping,conditional statements and funtion in shell scripting.
