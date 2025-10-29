@@ -266,15 +266,15 @@ read -p "Enter an email address: " email
 regex="^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$"
 
 if [[ $email =~ $regex ]]; then
-    echo "Valid email address ✅"
+    echo "Valid email address"
 else
-    echo "Invalid email address ❌"
+    echo "Invalid email address "
 fi
 ## output:
 astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./as1.sh 
 Enter the value of N: 5
 Enter an email address: Astik.29070stu@upes.ac  
-Valid email address ✅
+Valid email address 
 
 
 ## Assignment5:[error]
