@@ -1,4 +1,4 @@
-## Experiment [7]: [Shell programming]
+## Experiment [7]: [Shell Programming, Process and Schedule]
 ### Name: Astik Patel, Roll No.: 590029070 Date: 2025-09-04
 
 ### AIM:
