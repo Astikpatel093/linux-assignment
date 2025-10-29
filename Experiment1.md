@@ -1,14 +1,14 @@
-## Experiment [1]:[installing some useful tools for programming for linux]
+## [Experiment 1:installing some useful tools for programming for linux]
 ### Name: Astik Patel, Roll No.: 590029070 Date: 2025-09-04
 
 ### AIM:
-* [install wsl virtualbox,create virtual machine with linux os like ubuntu,linuxmint,or debian]
+* install wsl virtualbox,create virtual machine with linux os like ubuntu,linuxmint,or debian
 
 ### Requirements:
-* [internet,terminal,websites]
+* internet,terminal,websites
 
 ### Theory:
-* [installing ubuntu,linuxmint,or debian]
+* installing ubuntu,linuxmint,or debian
 
 ## part 1: Installing and Enabling WSL (Ubuntu) on Windows
 
