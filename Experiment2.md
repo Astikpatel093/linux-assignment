@@ -1,5 +1,5 @@
 ## Experiment [2]: [Bash Scripting]
-### Name: Astik Patel, Roll No.: 590029070 Date: 2025-09-04
+### Name: Astik Patel, Roll No: 590029070 Date: 2025-09-04
 
 ### AIM:
 * [To learn Basics of Bash Scripting]
