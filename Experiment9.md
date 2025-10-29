@@ -85,6 +85,7 @@ Number of .sh files in '/home/astik': 16
 
 
 ## command(s):
+```
 #!/bin/bash
 
 LOGFILE="cpu_usage.log"
@@ -110,7 +111,7 @@ while true; do
    
     sleep 10
 done
-
+```
 ## output:
 astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./2.sh
 2025-10-02 04:53:15, 0.40
