@@ -24,10 +24,11 @@
 ```
 #!/bin/bash
 echo "Hello world!"
-```
+
 
 #### output:
-Hello world!
+<img width="960" height="540" alt="2025-11-15 (51)" src="https://github.com/user-attachments/assets/083a27a0-28bc-40e5-a5ee-68a2dcb3dc33" />
+
 # Exercise 2: [personlized Greeting script]
 
 ## Task statement:
@@ -42,12 +43,10 @@ Hello world!
 echo "Enter the name."
 read name  #'read'takes user input 
 echo "Hello, $name! Welcome to shell scripting."
-```
 
 ## output:
-Enter the name.
-Astik
-Hello, Astik! Welcome to shell scripting.
+<img width="960" height="540" alt="2025-11-15 (52)" src="https://github.com/user-attachments/assets/7d280512-dc12-4889-8909-4831686f91a7" />
+
 
 ## Exercise 3: [Arithmetic operations in shell scripts]
 
@@ -72,14 +71,8 @@ echo "Division: $((num1/num2))"
 
 
 ## output:
-Enter first number
-1
-Enter second number.
-2
-Addition: 3
-substraction: -1
-Multiplicatin: 2
-Division: 0
+<img width="960" height="540" alt="2025-11-15 (53)" src="https://github.com/user-attachments/assets/5058221a-13fb-401f-b3bd-b2f602d94fc2" />
+
 
 
 ## Exercise 4: [voting]
@@ -103,9 +96,8 @@ Division: 0
     echo "Sorry, you are not eligible to vote."
     fi
 ## output
-Enter your age: 
-18
-Sorry, you are not eligible to vote.
+<img width="960" height="540" alt="2025-11-15 (54)" src="https://github.com/user-attachments/assets/ea7da6ed-8f59-4ff0-af2c-ca4437a5fc6c" />
+
 
 ## Result
 * The exercise were successfully completed for basic shell scripting.
