@@ -26,29 +26,21 @@
 #!/bin/bash
 
 echo "Starting background job: sleep 60"
-sleep 60 &        # start job in background
+sleep 60 &        
 job_pid=$!
 
 echo "Listing jobs:"
-jobs               # show running jobs
+jobs               
 
 echo "Bringing job to foreground..."
-fg %1              # bring job number 1 to foreground
+fg %1             
 
 echo "Now terminating the job..."
 kill -9 $job_pid   # force kill using PID
 echo "Job with PID $job_pid terminated."
 
 ## output:
-astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ bash -i ./41.sh
-Starting background job: sleep 60
-Listing jobs:
-[1]+  Running                 sleep 60 &    
-Bringing job to foreground...
-sleep 60
-Now terminating the job...
-bash: kill: (10857) - No such process
-Job with PID 10857 terminated.
+<img width="960" height="540" alt="2025-11-15 (6)" src="https://github.com/user-attachments/assets/2089996d-d0cc-4327-a66b-b6001ae8345b" />
 
 # Exercise 2: [comparison]
 
@@ -80,14 +72,9 @@ else
 fi
 
 ## output:
-astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./42.sh arm.sh as1.sh
-The files 'arm.sh' and 'as1.sh' are differ
-ent.
-astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./42.sh arm.sh arm.sh
-The files 'arm.sh' and 'arm.sh' are identi
-cal.
+<img width="960" height="540" alt="2025-11-15 (20)" src="https://github.com/user-attachments/assets/4942ddad-c93a-4f66-8bc8-c45362edd100" />
 
-## Exercise 4: [counts]
+## Exercise 3: [counts]
 
 ## Task Statement:
 * [count the number]
@@ -108,9 +95,7 @@ echo " User: $user"
 echo " Number of processes running: $count"
 
 ## output:
-astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./2.sh
-user: astik
- Number of processes running: 9
+<img width="960" height="540" alt="2025-11-15 (7)" src="https://github.com/user-attachments/assets/af431fbd-a2c7-45fc-b0ef-125209fff2cb" />
 
 ## Exercise 4: [monitoring]
 
@@ -146,22 +131,8 @@ while true; do
 done
 
 ## output:
-astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./2.sh
-2025-10-02 04:09:17,7592,420,6847
-2025-10-02 04:09:22,7592,420,6847
-2025-10-02 04:09:27,7592,420,6847
-2025-10-02 04:09:32,7592,420,6847
-2025-10-02 04:09:37,7592,420,6847
-2025-10-02 04:09:42,7592,420,6847
-2025-10-02 04:09:47,7592,419,6848
-2025-10-02 04:09:55,7592,418,6849
-2025-10-02 04:10:00,7592,418,6849
-2025-10-02 04:10:05,7592,418,6849
-2025-10-02 04:10:10,7592,420,6847
-2025-10-02 04:10:15,7592,419,6847
-
-
-## Exercise 4: [promp,search,display]
+<img width="960" height="540" alt="2025-11-15 (3)" src="https://github.com/user-attachments/assets/5ff9d1ab-8d22-47ca-bcea-e3364ce1c5c6" />
+## Exercise 5: [promp,search,display]
 
 ## Task Statement:
 * [prompt filename search pattern displays count]
@@ -192,10 +163,8 @@ count=$(grep -c "$pattern" "$filename")
 echo "Number of lines matching '$pattern' in '$filename': $count"
 
 ## output:
-astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./2.sh
-Enter filename: loop.sh
-Enter search pattern: if
- Number of lines matching 'if' in 'loop.sh': 2
+<img width="960" height="540" alt="2025-11-15 (9)" src="https://github.com/user-attachments/assets/ec22c372-dc1e-4ec8-9cc5-67a428f2d20c" />
+
 
  ## Result
  * The exercise were successfully completed for basic and looping,conditional statements and funtion in shell scripting.
