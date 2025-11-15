@@ -47,6 +47,7 @@ fi
 ```
 ## output:
 
+<img width="960" height="540" alt="2025-11-15 (55)" src="https://github.com/user-attachments/assets/9342d534-695d-48f0-96cb-9d771629fb07" />
 
 
 ## Exercise 2: [sum of two numbers script]
@@ -73,6 +74,7 @@ done
 echo "sum of digits: $sum"
 ```
 ## output:
+<img width="960" height="540" alt="2025-11-15 (49)" src="https://github.com/user-attachments/assets/6a46d8df-a020-446d-85e3-f189b3896d7c" />
 
 ## Exercise 3: [Armstrong number in shell scripts]
 
