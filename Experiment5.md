@@ -44,7 +44,7 @@ then
 else
     echo "$num is a prime number."
 fi
-
+```
 ## output:
 
 
@@ -58,6 +58,7 @@ fi
 * [This shell sricpt take input from the user store it in a variable and then call the variable which will output the stored value.]
 
 ## command(s):
+```
 #!/bin/bash
 echo "Enter the no"
 read num
@@ -70,7 +71,7 @@ num=$((num / 10))
 done
 
 echo "sum of digits: $sum"
-
+```
 ## output:
 
 ## Exercise 3: [Armstrong number in shell scripts]
@@ -116,9 +117,10 @@ do
 * [Write a script that prints Hello,World!]
 
 ## command(s):
+```
 #!/bin/bash
 echo "Hello, World!"
-
+```
 ## output:
   <img width="960" height="540" alt="2025-11-15 (51)" src="https://github.com/user-attachments/assets/9971e6d9-e683-4605-8149-aab8060fd75c" />
 
@@ -130,11 +132,12 @@ echo "Hello, World!"
 * [Ask the user's name and greet them.]
 
 ## command(s):
+```
 #!/bin/bash
  echo "Enter your name:" $variable
  read variable
  echo "Hello, $variable! Welcome to shell scripting."
-
+```
 ## output:
 <img width="960" height="540" alt="2025-11-15 (52)" src="https://github.com/user-attachments/assets/6aa21525-b21c-424a-93fe-27dfefd8c07c" />
 
@@ -146,6 +149,7 @@ echo "Hello, World!"
 
 
 ## command(s):
+```
 #!/bin/bash
 read -p "Enter first number: " num1
 read -p "Enter second number: " num2
@@ -161,7 +165,7 @@ echo "Addition: $add"
 echo "Subtraction: $sub"
 echo "Multiplication: $mul"
 echo "Division: $div"
-
+```
 ## output:
  <img width="960" height="540" alt="2025-11-15 (53)" src="https://github.com/user-attachments/assets/e25944c8-0fea-4ea3-aaf8-3d035a81135c" />
 
@@ -173,6 +177,7 @@ echo "Division: $div"
 
 
 ## command(s):
+```
 #!/bin/bash
 echo "Enter your age: "
 read age
@@ -183,7 +188,7 @@ then
 else 
     echo "Sorry, you are not eligible to vote."
 fi
-
+```
 ## output:
 <img width="960" height="540" alt="2025-11-15 (54)" src="https://github.com/user-attachments/assets/8af87fac-7fc8-4b7f-939c-e8b30f3e8b6b" />
 
@@ -198,6 +203,7 @@ fi
 
 
 ## command(s):
+```
 #!/bin/bash
 
 
@@ -226,7 +232,7 @@ if (( is_prime == 1 )); then
 else
     echo "$num is Not Prime"
 fi
-
+```
 ## output:
 <img width="960" height="540" alt="2025-11-15 (55)" src="https://github.com/user-attachments/assets/456ba4e9-d42e-4dce-9c35-9fcf29f43e15" />
 
@@ -238,6 +244,7 @@ fi
 
 
 ## command(s):
+```
 #!/bin/bash
 echo "Enter the no"
 read num
@@ -250,6 +257,7 @@ num=$((num / 10))
 done
 
 echo "sum of digits: $sum"
+```
 
 ## output:
 <img width="960" height="540" alt="2025-11-15 (56)" src="https://github.com/user-attachments/assets/59ff43ad-33ee-4d33-b18b-be6b0172d595" />
@@ -263,6 +271,7 @@ echo "sum of digits: $sum"
 
 
 ## command(s):
+```
 #!/bin/bash
 echo "Enter a number: "
 read num
@@ -281,6 +290,7 @@ do
     else
     echo "$num is not a armstrong."
     fi
+```
 
 ## output:
 <img width="960" height="540" alt="2025-11-15 (50)" src="https://github.com/user-attachments/assets/5b941a1b-9f0e-4e54-994a-841090fefbe4" />
