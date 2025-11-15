@@ -45,17 +45,8 @@ fi
 
 
 #### output:
-1.
-Enter filename:
-go
-File does not exist.
-Do You want to create it? (y/n)
-y
-File go created.
-2.
-Enter filename:
-go
-File exists.contents are:
+<img width="960" height="540" alt="2025-11-15 (10)" src="https://github.com/user-attachments/assets/56ddd535-0f64-467c-a710-8563206eacd6" />
+
 
 
 # Exercise 2: [print Numbers from 1 to 10]
@@ -71,16 +62,8 @@ do
    echo $i
 done
 ## output:
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
+<img width="960" height="540" alt="2025-11-15 (11)" src="https://github.com/user-attachments/assets/5d337d11-a38b-4013-a3ff-b1dcafb1acd6" />
+
 ## Exercise 3: [count Lines, Words and Characters]
 
 ## Task Statement:
@@ -111,13 +94,8 @@ else
 
 
 ## output:
-./count.sh filecheck.sh
-Lines: 17
-Words: 49
-characters: 274
-2.
-$ ./count.sh
-Usage: ./count.sh filename
+<img width="960" height="540" alt="2025-11-15 (12)" src="https://github.com/user-attachments/assets/1b9a95ce-3c3b-4ea8-aa9c-4b264db22aa7" />
+
 
 ## Exercise 3: [factorial]
 
@@ -147,9 +125,7 @@ echo "Factorial of 7 is: $(factorial 7)"
 echo "Factorial of 10 is: $(factorial 10)"
 
 ## output
-Factorial of 5 is: 120
-Factorial of 7 is: 5040
-Factorial of 10 is: 3628800
+<img width="960" height="540" alt="2025-11-15 (13)" src="https://github.com/user-attachments/assets/44fd3b3a-295b-4bc6-8433-775ca952410b" />
 
 ## Assigment 1: [processes]
 
@@ -182,11 +158,7 @@ do
     sleep 1
 done
 ## output
-
-
-
-
-
+<img width="960" height="540" alt="2025-11-15 (14)" src="https://github.com/user-attachments/assets/419bd0a9-56b4-453d-8e6d-e93d7871bba8" />
 ## Assigment 2: [PID]
 
 ## Task Statement:
@@ -215,12 +187,8 @@ echo "State        : $state"
 echo "Parent PID   : $ppid"
 echo "Memory Usage : ${memory:-Not available}"
 ## output:
-Enter the PID: 383
-Process ID   : 383
-Process ID   : 383
-State        : S
-Parent PID   : 378
-Memory Usage : 4992 kB
+<img width="960" height="540" alt="2025-11-15 (15)" src="https://github.com/user-attachments/assets/1dd264e0-7c5e-4a71-b321-b6c0857b5a46" />
+
 
 ## Assigment 3: [append]
 
@@ -244,22 +212,7 @@ CRON_CMD="* * * * * /bin/date >> $LOGFILE"
 echo "Cron job added: every minute append date/time to $LOGFILE"
 
 ## output
-$ ./as1.sh
-* * * * * /bin/date >> /home/astik/date_log.log
-Cron job added: every minute append date/time to /home/astik/date_log.log
-astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ cat ~/date_log.log
-Wed Oct  1 11:32:55 IST 2025
-Wed Oct  1 11:35:50 IST 2025
-Wed Oct  1 13:40:04 IST 2025
-Wed Oct  1 13:41:04 IST 2025
-Wed Oct  1 13:42:05 IST 2025
-Wed Oct  1 13:43:04 IST 2025
-Wed Oct  1 13:44:03 IST 2025
-Wed Oct  1 13:45:04 IST 2025
-Wed Oct  1 13:46:05 IST 2025
-Wed Oct  1 13:47:04 IST 2025
-Wed Oct  1 13:48:03 IST 2025
-
+<img width="960" height="540" alt="2025-11-15 (16)" src="https://github.com/user-attachments/assets/f19d7caa-54d3-4529-b65a-0611eb3ce4c1" />
 
 # Assigment 4: [error]
 
@@ -288,10 +241,8 @@ factorial $num
 
 ## output
 
-astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./as1.sh
-Enter a number: -1
-there is a error there is no factorial of negative numbers
-factorial of -1 is 1
+<img width="960" height="540" alt="2025-11-15 (17)" src="https://github.com/user-attachments/assets/92c8aaae-26dc-4185-806c-6b7ba3c00ddb" />
+
 
 # Assigment 5: [vowel]
 
@@ -323,13 +274,8 @@ count=$(grep -i -E '^[aeiou]' "$FILE" | wc -l)
 echo "Number of lines starting with a vowel: $count"
  
 ## output:
-astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./as3.sh 41.sh
-Number of lines starting with a vowel: 2
-astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ cat 41.sh
-#!/bin/bash
-echo "Enter the name."
-read name  #'read'takes user input
-echo "Hello, $name! Welcome to shell scrip
+<img width="960" height="540" alt="2025-11-15 (18)" src="https://github.com/user-attachments/assets/ed0a2cdd-877a-42da-916f-4b86a6264201" />
+
 
  ## Result
  * The exercise were successfully completed for basic and looping,conditional 
