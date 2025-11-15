@@ -46,9 +46,7 @@ else
 fi
 
 ## output:
-Enter a number:
-3
-3 is a prime number.
+
 
 
 ## Exercise 2: [sum of two numbers script]
@@ -74,9 +72,6 @@ done
 echo "sum of digits: $sum"
 
 ## output:
-Enter the no
-234
-sum of digits: 9
 
 ## Exercise 3: [Armstrong number in shell scripts]
 
@@ -110,14 +105,7 @@ do
 ```
 
 ## output:
-astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./arm.sh
-Enter a number: 
-153
-153 is a armstrong.
-astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./arm.sh
-Enter a number: 
-123
-123 is not a armstrong.
+<img width="960" height="540" alt="2025-11-15 (50)" src="https://github.com/user-attachments/assets/77986577-74d5-4afb-a72e-ccc8e3ae3b4a" />
 
 ## Exercise 4: 
 
@@ -132,7 +120,8 @@ Enter a number:
 echo "Hello, World!"
 
 ## output:
-  Hello, World!
+  <img width="960" height="540" alt="2025-11-15 (51)" src="https://github.com/user-attachments/assets/9971e6d9-e683-4605-8149-aab8060fd75c" />
+
   
 ## Task 2:
 * [Personalized Greeting]
@@ -147,9 +136,8 @@ echo "Hello, World!"
  echo "Hello, $variable! Welcome to shell scripting."
 
 ## output:
-  Enter your name: Rahul
-  Hello, Rahul! Welcome to Shell Scripting.
-  
+<img width="960" height="540" alt="2025-11-15 (52)" src="https://github.com/user-attachments/assets/6aa21525-b21c-424a-93fe-27dfefd8c07c" />
+
 ## Task 3:
 * [Arithmetic operations]
 
@@ -175,11 +163,8 @@ echo "Multiplication: $mul"
 echo "Division: $div"
 
 ## output:
-  Addition: 16
-  Subtraction: 8
-  Multiplication: 48
-  Division: 3
-  
+ <img width="960" height="540" alt="2025-11-15 (53)" src="https://github.com/user-attachments/assets/e25944c8-0fea-4ea3-aaf8-3d035a81135c" />
+
 ## Task 4:
 * [voting Eligibility]
 
@@ -200,14 +185,7 @@ else
 fi
 
 ## output:
-astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./42.sh
-Enter your age: 
-20
-You are eligible to vote.
-astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./42.sh
-Enter your age: 
-15
-Sorry, you are not eligible to vote.
+<img width="960" height="540" alt="2025-11-15 (54)" src="https://github.com/user-attachments/assets/8af87fac-7fc8-4b7f-939c-e8b30f3e8b6b" />
 
 
 
@@ -250,9 +228,7 @@ else
 fi
 
 ## output:
-astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./1.sh
-Enter a number: 2
-2 is Prime
+<img width="960" height="540" alt="2025-11-15 (55)" src="https://github.com/user-attachments/assets/456ba4e9-d42e-4dce-9c35-9fcf29f43e15" />
 
 ## Task 6:
 * [sum of digits]
@@ -276,10 +252,8 @@ done
 echo "sum of digits: $sum"
 
 ## output:
-astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./2.sh
-Enter the no
-1234
-sum of digits: 10
+<img width="960" height="540" alt="2025-11-15 (56)" src="https://github.com/user-attachments/assets/59ff43ad-33ee-4d33-b18b-be6b0172d595" />
+
 
 ## Task 7:
 * [Armstrong Number check]
@@ -309,15 +283,8 @@ do
     fi
 
 ## output:
-astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./arm.sh
-Enter a number: 
-153
-153 is a armstrong.
-astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$
- ./arm.sh
-Enter a number: 
-123
-123 is not a armstrong.
+<img width="960" height="540" alt="2025-11-15 (50)" src="https://github.com/user-attachments/assets/5b941a1b-9f0e-4e54-994a-841090fefbe4" />
+
 
  ## Result
  * The exercise were successfully completed for basic and looping in shell scripting.
