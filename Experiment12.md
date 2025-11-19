@@ -1,4 +1,4 @@
-## Experiment [12]: [Shell programming]
+## Experiment [12]: [Expert system using shell scripting]
 ### Name: Astik Patel, Roll No: 590029070 Date: 2025-11-17
 
 ### AIM:
