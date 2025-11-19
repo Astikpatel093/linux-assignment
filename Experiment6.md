@@ -1,5 +1,5 @@
-## Experiment [6]: [Bash Scripting]
-### Name: Astik Patel, Roll No.: 590029070 Date: 2025-09-04
+## Experiment [6]: [Shell Loops]
+### Name: Astik Patel, Roll No: 590029070 Date: 2025-09-04
 
 ### AIM:
 * [To learn looping of Bash Scripting]
@@ -41,10 +41,8 @@ do
    echo "LCM: $lcm"
 
 ## output:
-Enter two numbers: 
-3 4
-GCD: 1
-LCM: 12
+<img width="960" height="540" alt="2025-11-15 (38)" src="https://github.com/user-attachments/assets/7be3fac2-617a-42a7-b326-1c373f36a2b3" />
+
 
 
 ## Exercise 2: [Number difference script]
@@ -82,9 +80,8 @@ temp=$num
           fi 
 
 ## output:
-Enter a number: 
-121
-121 is a palindrome. 
+<img width="960" height="540" alt="2025-11-15 (39)" src="https://github.com/user-attachments/assets/ef4a5e1c-9996-42a4-ba16-f5a642a0bae6" />
+
 ## Exercise 3: [Arithmetic operations in shell scripts]
 
 ## task statement: 
@@ -105,26 +102,8 @@ echo "Descending Order: "
 printf "%s\n" "${arr[@]}" | sort -nr
 
 ## output:
-Enter numbers separated by space: 
-1 2 3 4 5 6 7 8 
-Ascending Order: 
-1
-2
-3
-4
-5
-6
-7
-8
-Descending Order: 
-8
-7
-6
-5
-4
-3
-2
-1
+<img width="960" height="540" alt="2025-11-15 (40)" src="https://github.com/user-attachments/assets/86e920bb-7d89-4aa7-8d9e-3e6ed31be5bd" />
+
 ## Assignment1:[funtion in shell scripts]
 
 ## task statement: 
@@ -153,17 +132,15 @@ factorial() {
     echo "$result"
 }
 
-# Example usage:
+
 read -p "Enter a number: " num
 fact=$(factorial $num)
 if [ "$num" -ge 0 ]; then
     echo "Factorial of $num is $fact"
 fi
 ## output:
-astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./as1.sh
-Enter a number: 5
-Factorial of 5 is 120
 
+<img width="960" height="540" alt="2025-11-15 (42)" src="https://github.com/user-attachments/assets/fad63c2a-17d3-4735-8c67-f4c67da5cbdc" />
 
 
 ## Assignment2: [filename]
@@ -195,15 +172,8 @@ count=$(grep -o -w "$word" "$filename" | wc -l)
 echo "The word '$word' appears $count times in '$filename'."
 
 ## output:
-astik@DESKTOP-E06876A:/mnt/c/Users/HP/li./as1.sh 
-Enter filename: 41.sh
-Enter word to search: Hello
-The word 'Hello' appears 1 times in '41.sh'.
-astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ cat 41.sh
-#!/bin/bash
-echo "Enter the name."
-read name  #'read'takes user input
-echo "Hello, $name! Welcome to shell scripting.
+
+<img width="960" height="540" alt="2025-11-15 (43)" src="https://github.com/user-attachments/assets/4b236465-00e3-4195-bc86-c167e90ff6d9" />
 
 ## Assignment3:[Fibonacci Numbers]
 
@@ -244,10 +214,7 @@ done
 echo    # new line
 
 ## output:
-astik@DESKTOP-E06876A:/mnt/c/Users/HP/li./as1.sh
-Enter the value of N: 10
-The first 10 Fibonacci numbers are:
-0 1 1 2 3 5 8 13 21 34
+<img width="960" height="540" alt="2025-11-15 (44)" src="https://github.com/user-attachments/assets/c2dcf901-9f6b-44e0-aefe-0ddb2c0b3143" />
 
 ## Assignment4:[email address]
 
@@ -266,16 +233,12 @@ read -p "Enter an email address: " email
 regex="^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$"
 
 if [[ $email =~ $regex ]]; then
-    echo "Valid email address ✅"
+    echo "Valid email address"
 else
-    echo "Invalid email address ❌"
+    echo "Invalid email address "
 fi
 ## output:
-astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./as1.sh 
-Enter the value of N: 5
-Enter an email address: Astik.29070stu@upes.ac  
-Valid email address ✅
-
+<img width="960" height="540" alt="2025-11-15 (45)" src="https://github.com/user-attachments/assets/6b5b3ce1-4c14-47cd-98d3-ec6f6ca9a80b" />
 
 ## Assignment5:[error]
 
@@ -302,20 +265,8 @@ echo "After cat, exit status: $?"
 echo "End of script"
 
 ## output:
-astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ bash -x as1.sh
-+ read -p 'Enter the value of N: ' N
-Enter the value of N: 2
-+ echo 'Start of script'
-Start of script
-+ FILE=does_not_exist.txt
-+ echo 'Attempting to cat does_not_exist.txt'
-Attempting to cat does_not_exist.txt       
-+ cat does_not_exist.txt
-cat: does_not_exist.txt: No such file or directory
-+ echo 'After cat, exit status: 1'
-After cat, exit status: 1
-+ echo 'End of script'
-End of script
+<img width="960" height="540" alt="2025-11-15 (46)" src="https://github.com/user-attachments/assets/af6b6edf-0fa0-482e-8ad8-50a47df631cd" />
+
 
 # Result
 * The exercise were successfully completed for looping in shell scripting.

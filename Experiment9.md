@@ -1,5 +1,5 @@
-## Experiment [9]: [Shell programming]
-### Name: Astik Patel, Roll No.: 590029070 Date: 2025-10-01
+## Experiment [9]: [Shell Programming continued, System Performance Monitoring]
+### Name: Astik Patel, Roll No: 590029070 Date: 2025-10-01
 
 ### AIM:
 * [To learn Basics of Shell programming]
@@ -39,13 +39,12 @@ largest_file=$(find "$dir" -type f -exec du -h {} + | sort -hr | head -n 1)
 if [ -z "$largest_file" ]; then
     echo "No files found in directory '$dir'."
 else
-    echo "📂 Largest file in '$dir': $largest_file"
+    echo " Largest file in '$dir': $largest_file"
 fi
 
 ## output:
-astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./2.sh
-Enter directory path: loop
-📂 Largest file in 'loop': 0    loop/experiment
+<img width="960" height="540" alt="2025-11-15" src="https://github.com/user-attachments/assets/8f1b33a1-666f-4ec3-a017-76ecda91f42c" />
+
 
 # Exercise 2: [count]
 
@@ -69,11 +68,10 @@ fi
 
 count=$(find "$dir" -maxdepth 1 -type f -name "*.sh" | wc -l)
 
-echo "📄 Number of .sh files in '$dir': $count"
+echo "Number of .sh files in '$dir': $count"
 
 ## output:
-astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./2.sh
-📄 Number of .sh files in '/home/astik': 16
+<img width="960" height="540" alt="2025-11-15 (2)" src="https://github.com/user-attachments/assets/e730f779-dc39-4bcd-a898-f24610fd9479" />
 
 ## Exercise 3: [CPU]
 
@@ -85,6 +83,7 @@ astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./2.sh
 
 
 ## command(s):
+```
 #!/bin/bash
 
 LOGFILE="cpu_usage.log"
@@ -110,19 +109,10 @@ while true; do
    
     sleep 10
 done
-
+```
 ## output:
-astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./2.sh
-2025-10-02 04:53:15, 0.40
-2025-10-02 04:53:27, 100.00
-2025-10-02 04:53:38, 0.40
-2025-10-02 04:53:48, 0.40
-2025-10-02 04:54:00, 100.00
-2025-10-02 04:54:10, 100.00
-2025-10-02 04:54:20, 0.40
-2025-10-02 04:54:33, 0.40
-2025-10-02 04:54:43, 0.40
-2025-10-02 04:54:53, 0.40
+<img width="960" height="540" alt="2025-11-15 (3)" src="https://github.com/user-attachments/assets/62f39403-387b-4419-992d-88be06c1cbeb" />
+
 
 ## Exercise 4: [newuser]
 
@@ -152,18 +142,12 @@ sudo chmod 700 "/home/$username"
 
 sudo passwd "$username"
 
-echo "✅ User '$username' created with home directory /home/$username"
+echo " User '$username' created with home directory /home/$username"
 echo "   Permissions set to 700 (owner only)"
 
 ## output:
-astik@DESKTOP-E06876A:/mnt/c/Users/HP/linux$ ./2.sh
-Enter new username: patel
-New password: 
-Retype new password:
-passwd: password updated successfully
-✅ User 'patel' created with home directory /
-home/patel
-   Permissions set to 700 (owner only) 
+<img width="960" height="540" alt="2025-11-15 (4)" src="https://github.com/user-attachments/assets/d42c24cc-d2ba-4b4f-b679-d45ae31e66df" />
+
 
  ## Result
  * The exercise were successfully completed for basic and looping,conditional statements and funtion in shell scripting.
