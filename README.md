@@ -18,5 +18,7 @@
 * [Experiment 7: Shell Programming, Process and Schedule](Experiment7.md)
 * [Experiment 8:  Shell Programming continued](Experiment8.md)
 * [Experiment 9: Shell Programming continued, System Performance Monitoring](Experiment9.md)
-
+* [Experiment 10: shell programming](Experiment10.md)
+* [Experiment 11: interactive shell programming](Experiment11.md)
+* [Experiment 12: Expert system using shell scripting](Experiment12.md)
 
